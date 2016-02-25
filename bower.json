@@ -1,0 +1,24 @@
+{
+  "name": "rails-angular",
+  "version": "0.0.0",
+  "homepage": "https://github.com/wolfieorama/rails-marrying-angular",
+  "authors": [
+    "wolfieorama <wachirawamunyi@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-ui-router": "~0.2.18"
+  }
+}
