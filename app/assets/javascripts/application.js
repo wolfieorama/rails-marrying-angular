@@ -20,7 +20,7 @@
 //= require_self
 //= require controllers/task
 
-var app = angular.module('rails-task-list', [
+var app = angular.module('rails-angular', [
   'ui.router',
   'templates'
 ]);
@@ -36,7 +36,7 @@ app.config([
     });
 
     $urlRouterProvider.otherwise('/');
-    $locationProvider.html5mode({
+    $locationProvider.html5Mode({
       enable:true,
       requireBase: false
     });
