@@ -17,7 +17,6 @@
 //= require angular-ui-router/release/angular-ui-router
 //= require angular-rails-templates
 //= require_tree ../templates
-//= require turbolinks
 //= require_self
 //= require controllers/task
 
@@ -31,7 +30,7 @@ app.config([
   '$urlRouterProvider',
   '$locationProvider',
   function($stateProvider, $urlRouterProvider, $locationProvider){
-    #stateProvider.state('tasks', {
+    $stateProvider.state('tasks', {
       url: '/',templateUrl: 'tasks.html',
       controller: 'TaskCtrl'
     });
