@@ -7,6 +7,10 @@ class TasksController < ApplicationController
     @tasks = Task.all
   end
 
+  def all
+    render json: Task.all 
+  end
+
   # GET /tasks/1
   # GET /tasks/1.json
   def show
