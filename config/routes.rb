@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
 
-resources :tasks
-
   scope '/api' do
     scope '/v1' do
       scope '/tasks' do
