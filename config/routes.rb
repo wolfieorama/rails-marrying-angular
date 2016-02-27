@@ -8,7 +8,8 @@ Rails.application.routes.draw do
     end
   end
 
-   root 'tasks#index'
-   get "*unmatched_route" => "tasks#index"
+ root 'tasks#index'
+ get "*unmatched_route" => "tasks#index"
+
 
 end
